@@ -227,7 +227,6 @@ li > .studio:visited {
   font-weight: 500;
   text-align: center;
   line-height: 1.18;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-text {
@@ -236,12 +235,16 @@ li > .studio:visited {
   line-height: 1.18;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 30px;
+}
+.team-item-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* ---------------------------footer--------------------------------- */
 
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 .footer {
   background: var(--background-color);
@@ -258,9 +261,6 @@ address {
 }
 .footer-logo > span {
   color: var(--hover-color);
-}
-.footer-list {
-  margin-top: 20px;
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
